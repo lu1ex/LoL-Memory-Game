@@ -3,7 +3,15 @@ body
     background-position: center;
     background-image: url("img/tlo.png");
 }
-
+header
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 180px;
+    background-image: url("img/header.png");
+    background-position: center;
+}
 section
 {
     margin-left: auto;
@@ -21,7 +29,10 @@ div
     border-radius: 2px;
     background-color: grey;
 }
-
+div:hover
+{
+    opacity: 70%;
+}
 .Ahri
 {
     background-image: url("img/Ahri.png");
