@@ -63,6 +63,11 @@ div:hover
     background-image: url("img/Rengar.png");
 }
 
+.off
+{
+    opacity: 10%;
+    transition: 1s ease-in-out;
+}
 .hidden
 {
     background-image: url("img/icon.png");
