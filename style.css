@@ -1,6 +1,7 @@
 body
 {
-    background-color: #444F6C;
+    background-position: center;
+    background-image: url("img/tlo.png");
 }
 
 section
@@ -19,11 +20,6 @@ div
     border: 2px solid black;
     border-radius: 2px;
     background-color: grey;
-}
-
-div:hover
-{
-    opacity: 50%;
 }
 
 .Ahri
