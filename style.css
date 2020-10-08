@@ -1,0 +1,25 @@
+body
+{
+    background-color: #444F6C;
+}
+
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    height: 360px;
+}
+div
+{
+    float: left;
+    width: 116px;
+    height: 116px;
+    border: 2px solid black;
+    background-color: grey;
+}
+
+div:hover
+{
+    background-color: #444F6C;
+}
