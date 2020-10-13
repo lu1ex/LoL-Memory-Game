@@ -25,6 +25,16 @@ const klikniecieKarty = function() {
     else {
         karty.forEach(karta =>{
             karta.removeEventListener('click', klikniecieKarty) });
+			
+		if (aktywnaKarta == aktywne2Karty[0])
+		{
+			aktywne2Karty.forEach (karta => karta.classList.add("hidden"));
+			aktywnaKarta = "";
+            aktywne2Karty.length = 0;
+            
+            karty.forEach( karta => karta.addEventListener('click', klikniecieKarty));
+        
+		}else {
         aktywne2Karty[1] = aktywnaKarta;
         liczbaKlikniecPar++;
 
@@ -51,6 +61,7 @@ const klikniecieKarty = function() {
             karty.forEach( karta => karta.addEventListener('click', klikniecieKarty));
         },500)
     }
+	}
 }
 
 const poczatekGry = function() {
